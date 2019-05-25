@@ -1,0 +1,60 @@
+
+body{
+	margin:0;
+	padding:0;
+}
+header{
+	background-color: #121B2A;
+}
+.wrapper {
+	width:80%;
+	margin: 0 auto;
+	overflow: hidden;
+}
+
+.logo {
+	width:20%;
+	float:left;
+}
+
+.menu {
+	width:75%;
+	float:right;
+}
+
+.menu ul{
+
+	list-style: none;
+}
+.menu ul li{
+	float:left;
+	margin:0px 20px;
+}
+.menu ul li a{
+	text-decoration: none;
+	color:white;
+}
+.menu ul li:hover a{
+	color:#0078BC;
+}
+
+.slider{
+	background-image: url('../images/slider-background.jpg');
+	min-height: 300px;
+}
+.slider-content{
+
+}
+
+.slider-content p{
+	color:white;
+	font-size:24px;
+}
+#last-p {
+	color:white;
+	font-size:16px;
+}
+.slider-content h2{
+	color:white;
+	font-size:36px;
+}
